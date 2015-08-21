@@ -1,0 +1,16 @@
+PODS:
+  - GPUImage (0.1.6)
+  - Masonry (0.6.2)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - GPUImage (~> 0.1.6)
+  - Masonry (~> 0.6.2)
+  - pop (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  GPUImage: 4675ce4a5370ca92fcea8623b2a08b8f0c51b940
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+
+COCOAPODS: 0.37.2

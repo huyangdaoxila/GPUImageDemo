@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26AC7D641B54F2AD00D7C48F /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC7D631B54F2AD00D7C48F /* UIColor+CustomColor.m */; };
 		26BF77C31B4F66F000B19E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF77C21B4F66F000B19E66 /* main.m */; };
 		26BF77C61B4F66F000B19E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF77C51B4F66F000B19E66 /* AppDelegate.m */; };
 		26BF77C91B4F66F000B19E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF77C81B4F66F000B19E66 /* ViewController.m */; };
@@ -14,6 +15,22 @@
 		26BF77CE1B4F66F000B19E66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BF77CD1B4F66F000B19E66 /* Images.xcassets */; };
 		26BF77D11B4F66F000B19E66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26BF77CF1B4F66F000B19E66 /* LaunchScreen.xib */; };
 		26BF77DD1B4F66F000B19E66 /* GPUImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF77DC1B4F66F000B19E66 /* GPUImageDemoTests.m */; };
+		26BF784A1B4F76AD00B19E66 /* LightEffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78491B4F76AD00B19E66 /* LightEffectController.m */; };
+		26BF784D1B4F8F9A00B19E66 /* SepiaFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF784C1B4F8F9A00B19E66 /* SepiaFilterController.m */; };
+		26BF78501B4F978D00B19E66 /* ExposureFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF784F1B4F978D00B19E66 /* ExposureFilterController.m */; };
+		26BF78531B4F97A800B19E66 /* ContrastFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78521B4F97A800B19E66 /* ContrastFilterController.m */; };
+		26BF78561B4F97C200B19E66 /* SaturationFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78551B4F97C200B19E66 /* SaturationFilterController.m */; };
+		26BF78591B4F9C6100B19E66 /* GammaFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78581B4F9C6100B19E66 /* GammaFilterController.m */; };
+		26BF785D1B4FA98B00B19E66 /* 04.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 26BF785C1B4FA98B00B19E66 /* 04.JPG */; };
+		26BF78611B4FB27500B19E66 /* DemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78601B4FB27500B19E66 /* DemoBaseViewController.m */; };
+		26BF78641B4FB44200B19E66 /* PixellateFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78631B4FB44200B19E66 /* PixellateFilterController.m */; };
+		26BF78671B4FBAA900B19E66 /* PolarPixellateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78661B4FBAA900B19E66 /* PolarPixellateController.m */; };
+		26BF786A1B4FBD1100B19E66 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78691B4FBD1100B19E66 /* RootViewController.m */; };
+		26BF786D1B4FBEDC00B19E66 /* PixellatePositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF786C1B4FBEDC00B19E66 /* PixellatePositionController.m */; };
+		26BF78701B4FC0C000B19E66 /* PlokaDotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF786F1B4FC0C000B19E66 /* PlokaDotsController.m */; };
+		26BF78731B4FC26100B19E66 /* MoreFiltersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78721B4FC26100B19E66 /* MoreFiltersController.m */; };
+		26BF78761B4FC31700B19E66 /* ShowCaseFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78751B4FC31700B19E66 /* ShowCaseFilterController.m */; };
+		778E28F64C8A3B0CE0A251CA /* libPods-GPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA505E14E8700E1183450F /* libPods-GPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26AC7D621B54F2AD00D7C48F /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		26AC7D631B54F2AD00D7C48F /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		26BA505E14E8700E1183450F /* libPods-GPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF77BD1B4F66F000B19E66 /* GPUImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF77C11B4F66F000B19E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26BF77C21B4F66F000B19E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,38 @@
 		26BF77D61B4F66F000B19E66 /* GPUImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF77DB1B4F66F000B19E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26BF77DC1B4F66F000B19E66 /* GPUImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageDemoTests.m; sourceTree = "<group>"; };
+		26BF77E71B4F6A9900B19E66 /* GPUImagePrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImagePrefix.pch; sourceTree = "<group>"; };
+		26BF78481B4F76AD00B19E66 /* LightEffectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightEffectController.h; sourceTree = "<group>"; };
+		26BF78491B4F76AD00B19E66 /* LightEffectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightEffectController.m; sourceTree = "<group>"; };
+		26BF784B1B4F8F9A00B19E66 /* SepiaFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SepiaFilterController.h; sourceTree = "<group>"; };
+		26BF784C1B4F8F9A00B19E66 /* SepiaFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SepiaFilterController.m; sourceTree = "<group>"; };
+		26BF784E1B4F978D00B19E66 /* ExposureFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExposureFilterController.h; sourceTree = "<group>"; };
+		26BF784F1B4F978D00B19E66 /* ExposureFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExposureFilterController.m; sourceTree = "<group>"; };
+		26BF78511B4F97A800B19E66 /* ContrastFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContrastFilterController.h; sourceTree = "<group>"; };
+		26BF78521B4F97A800B19E66 /* ContrastFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContrastFilterController.m; sourceTree = "<group>"; };
+		26BF78541B4F97C200B19E66 /* SaturationFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaturationFilterController.h; sourceTree = "<group>"; };
+		26BF78551B4F97C200B19E66 /* SaturationFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaturationFilterController.m; sourceTree = "<group>"; };
+		26BF78571B4F9C6100B19E66 /* GammaFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GammaFilterController.h; sourceTree = "<group>"; };
+		26BF78581B4F9C6100B19E66 /* GammaFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GammaFilterController.m; sourceTree = "<group>"; };
+		26BF785C1B4FA98B00B19E66 /* 04.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.JPG; sourceTree = "<group>"; };
+		26BF785F1B4FB27500B19E66 /* DemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoBaseViewController.h; sourceTree = "<group>"; };
+		26BF78601B4FB27500B19E66 /* DemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBaseViewController.m; sourceTree = "<group>"; };
+		26BF78621B4FB44200B19E66 /* PixellateFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixellateFilterController.h; sourceTree = "<group>"; };
+		26BF78631B4FB44200B19E66 /* PixellateFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixellateFilterController.m; sourceTree = "<group>"; };
+		26BF78651B4FBAA900B19E66 /* PolarPixellateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolarPixellateController.h; sourceTree = "<group>"; };
+		26BF78661B4FBAA900B19E66 /* PolarPixellateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolarPixellateController.m; sourceTree = "<group>"; };
+		26BF78681B4FBD1100B19E66 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		26BF78691B4FBD1100B19E66 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		26BF786B1B4FBEDC00B19E66 /* PixellatePositionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixellatePositionController.h; sourceTree = "<group>"; };
+		26BF786C1B4FBEDC00B19E66 /* PixellatePositionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixellatePositionController.m; sourceTree = "<group>"; };
+		26BF786E1B4FC0C000B19E66 /* PlokaDotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlokaDotsController.h; sourceTree = "<group>"; };
+		26BF786F1B4FC0C000B19E66 /* PlokaDotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlokaDotsController.m; sourceTree = "<group>"; };
+		26BF78711B4FC26100B19E66 /* MoreFiltersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreFiltersController.h; sourceTree = "<group>"; };
+		26BF78721B4FC26100B19E66 /* MoreFiltersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreFiltersController.m; sourceTree = "<group>"; };
+		26BF78741B4FC31600B19E66 /* ShowCaseFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCaseFilterController.h; sourceTree = "<group>"; };
+		26BF78751B4FC31700B19E66 /* ShowCaseFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCaseFilterController.m; sourceTree = "<group>"; };
+		52A26A6FC7098D88DBAAEBAA /* Pods-GPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D8F34B8318444E4AD9141273 /* Pods-GPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778E28F64C8A3B0CE0A251CA /* libPods-GPUImageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +113,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26AC7D611B54F29E00D7C48F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				26AC7D621B54F2AD00D7C48F /* UIColor+CustomColor.h */,
+				26AC7D631B54F2AD00D7C48F /* UIColor+CustomColor.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		26BF77B41B4F66F000B19E66 = {
 			isa = PBXGroup;
 			children = (
+				26AC7D611B54F29E00D7C48F /* Utils */,
+				26BF77FD1B4F763D00B19E66 /* GPUImagePart */,
 				26BF77BF1B4F66F000B19E66 /* GPUImageDemo */,
 				26BF77D91B4F66F000B19E66 /* GPUImageDemoTests */,
 				26BF77BE1B4F66F000B19E66 /* Products */,
+				BEDD51A87A611082120D2E82 /* Pods */,
+				C5658000B3CAAE257FA184DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +151,10 @@
 				26BF77C51B4F66F000B19E66 /* AppDelegate.m */,
 				26BF77C71B4F66F000B19E66 /* ViewController.h */,
 				26BF77C81B4F66F000B19E66 /* ViewController.m */,
+				26BF78681B4FBD1100B19E66 /* RootViewController.h */,
+				26BF78691B4FBD1100B19E66 /* RootViewController.m */,
+				26BF785F1B4FB27500B19E66 /* DemoBaseViewController.h */,
+				26BF78601B4FB27500B19E66 /* DemoBaseViewController.m */,
 				26BF77CA1B4F66F000B19E66 /* Main.storyboard */,
 				26BF77CD1B4F66F000B19E66 /* Images.xcassets */,
 				26BF77CF1B4F66F000B19E66 /* LaunchScreen.xib */,
@@ -96,8 +166,10 @@
 		26BF77C01B4F66F000B19E66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				26BF785C1B4FA98B00B19E66 /* 04.JPG */,
 				26BF77C11B4F66F000B19E66 /* Info.plist */,
 				26BF77C21B4F66F000B19E66 /* main.m */,
+				26BF77E71B4F6A9900B19E66 /* GPUImagePrefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +191,94 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		26BF77FD1B4F763D00B19E66 /* GPUImagePart */ = {
+			isa = PBXGroup;
+			children = (
+				26BF77FE1B4F763D00B19E66 /* Cells */,
+				26BF77FF1B4F763D00B19E66 /* Controllers */,
+				26BF78001B4F763D00B19E66 /* Models */,
+				26BF78011B4F763D00B19E66 /* Tools */,
+				26BF78021B4F763D00B19E66 /* VIews */,
+			);
+			path = GPUImagePart;
+			sourceTree = "<group>";
+		};
+		26BF77FE1B4F763D00B19E66 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		26BF77FF1B4F763D00B19E66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26BF78481B4F76AD00B19E66 /* LightEffectController.h */,
+				26BF78491B4F76AD00B19E66 /* LightEffectController.m */,
+				26BF784B1B4F8F9A00B19E66 /* SepiaFilterController.h */,
+				26BF784C1B4F8F9A00B19E66 /* SepiaFilterController.m */,
+				26BF784E1B4F978D00B19E66 /* ExposureFilterController.h */,
+				26BF784F1B4F978D00B19E66 /* ExposureFilterController.m */,
+				26BF78511B4F97A800B19E66 /* ContrastFilterController.h */,
+				26BF78521B4F97A800B19E66 /* ContrastFilterController.m */,
+				26BF78541B4F97C200B19E66 /* SaturationFilterController.h */,
+				26BF78551B4F97C200B19E66 /* SaturationFilterController.m */,
+				26BF78571B4F9C6100B19E66 /* GammaFilterController.h */,
+				26BF78581B4F9C6100B19E66 /* GammaFilterController.m */,
+				26BF78621B4FB44200B19E66 /* PixellateFilterController.h */,
+				26BF78631B4FB44200B19E66 /* PixellateFilterController.m */,
+				26BF78651B4FBAA900B19E66 /* PolarPixellateController.h */,
+				26BF78661B4FBAA900B19E66 /* PolarPixellateController.m */,
+				26BF786B1B4FBEDC00B19E66 /* PixellatePositionController.h */,
+				26BF786C1B4FBEDC00B19E66 /* PixellatePositionController.m */,
+				26BF786E1B4FC0C000B19E66 /* PlokaDotsController.h */,
+				26BF786F1B4FC0C000B19E66 /* PlokaDotsController.m */,
+				26BF78711B4FC26100B19E66 /* MoreFiltersController.h */,
+				26BF78721B4FC26100B19E66 /* MoreFiltersController.m */,
+				26BF78741B4FC31600B19E66 /* ShowCaseFilterController.h */,
+				26BF78751B4FC31700B19E66 /* ShowCaseFilterController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		26BF78001B4F763D00B19E66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26BF78011B4F763D00B19E66 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		26BF78021B4F763D00B19E66 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		BEDD51A87A611082120D2E82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8F34B8318444E4AD9141273 /* Pods-GPUImageDemo.debug.xcconfig */,
+				52A26A6FC7098D88DBAAEBAA /* Pods-GPUImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5658000B3CAAE257FA184DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26BA505E14E8700E1183450F /* libPods-GPUImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26BF77E01B4F66F000B19E66 /* Build configuration list for PBXNativeTarget "GPUImageDemo" */;
 			buildPhases = (
+				9443095A4033B16644B6C65A /* Check Pods Manifest.lock */,
 				26BF77B91B4F66F000B19E66 /* Sources */,
 				26BF77BA1B4F66F000B19E66 /* Frameworks */,
 				26BF77BB1B4F66F000B19E66 /* Resources */,
+				344136C1D652D1496C73C96D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BF77CC1B4F66F000B19E66 /* Main.storyboard in Resources */,
+				26BF785D1B4FA98B00B19E66 /* 04.JPG in Resources */,
 				26BF77D11B4F66F000B19E66 /* LaunchScreen.xib in Resources */,
 				26BF77CE1B4F66F000B19E66 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +377,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		344136C1D652D1496C73C96D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9443095A4033B16644B6C65A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26BF77B91B4F66F000B19E66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +417,22 @@
 			files = (
 				26BF77C91B4F66F000B19E66 /* ViewController.m in Sources */,
 				26BF77C61B4F66F000B19E66 /* AppDelegate.m in Sources */,
+				26BF78731B4FC26100B19E66 /* MoreFiltersController.m in Sources */,
 				26BF77C31B4F66F000B19E66 /* main.m in Sources */,
+				26BF786D1B4FBEDC00B19E66 /* PixellatePositionController.m in Sources */,
+				26BF78671B4FBAA900B19E66 /* PolarPixellateController.m in Sources */,
+				26BF78761B4FC31700B19E66 /* ShowCaseFilterController.m in Sources */,
+				26BF78641B4FB44200B19E66 /* PixellateFilterController.m in Sources */,
+				26BF78561B4F97C200B19E66 /* SaturationFilterController.m in Sources */,
+				26BF78591B4F9C6100B19E66 /* GammaFilterController.m in Sources */,
+				26BF784D1B4F8F9A00B19E66 /* SepiaFilterController.m in Sources */,
+				26BF78531B4F97A800B19E66 /* ContrastFilterController.m in Sources */,
+				26BF78701B4FC0C000B19E66 /* PlokaDotsController.m in Sources */,
+				26BF78501B4F978D00B19E66 /* ExposureFilterController.m in Sources */,
+				26BF786A1B4FBD1100B19E66 /* RootViewController.m in Sources */,
+				26BF78611B4FB27500B19E66 /* DemoBaseViewController.m in Sources */,
+				26AC7D641B54F2AD00D7C48F /* UIColor+CustomColor.m in Sources */,
+				26BF784A1B4F76AD00B19E66 /* LightEffectController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +554,14 @@
 		};
 		26BF77E11B4F66F000B19E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F34B8318444E4AD9141273 /* Pods-GPUImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GPUImageDemo/GPUImagePrefix.pch";
 				INFOPLIST_FILE = GPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,9 +569,14 @@
 		};
 		26BF77E21B4F66F000B19E66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A26A6FC7098D88DBAAEBAA /* Pods-GPUImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GPUImageDemo/GPUImagePrefix.pch";
 				INFOPLIST_FILE = GPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +635,7 @@
 				26BF77E21B4F66F000B19E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26BF77E31B4F66F000B19E66 /* Build configuration list for PBXNativeTarget "GPUImageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +644,7 @@
 				26BF77E51B4F66F000B19E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

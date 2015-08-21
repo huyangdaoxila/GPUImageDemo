@@ -1,0 +1,28 @@
+//
+//  GPUImagePrefix.pch
+//  GPUImageDemo
+//
+//  Created by huyang on 15/7/10.
+//  Copyright (c) 2015年 huyang. All rights reserved.
+//
+
+#ifndef GPUImageDemo_GPUImagePrefix_pch
+#define GPUImageDemo_GPUImagePrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// macros
+#define KFullWidth  [UIScreen mainScreen].bounds.size.width
+#define KFullHeight [UIScreen mainScreen].bounds.size.height
+#define KClearColor [UIColor clearColor]
+
+// notification
+#define KDragCircleViewHasMovedNotice @"dragCircleViewHasMoved"
+
+// cocoaPods
+#import <Masonry.h>
+#import <GPUImage.h>
+#import <POP/POP.h>
+
+#endif
